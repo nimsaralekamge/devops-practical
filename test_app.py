@@ -1,0 +1,1 @@
+(echo from app import app& echo def test_home(^):& echo     client = app.test_client(^)& echo     response = client.get('/'^)& echo     assert response.status_code == 200& echo     assert b"Hello, DevOps World! V1" in response.data) > test_app.py

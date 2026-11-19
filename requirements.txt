@@ -1,0 +1,1 @@
+(echo flask==3.0.0& echo pytest==7.4.0) > requirements.txt

@@ -1,0 +1,1 @@
+(echo from flask import Flask& echo app = Flask(__name__^)& echo @app.route('/'^)& echo def home(^):& echo     return "Hello, DevOps World! V1"& echo if __name__ == '__main__':& echo     app.run(host='0.0.0.0', port=5000^)) > app.py
